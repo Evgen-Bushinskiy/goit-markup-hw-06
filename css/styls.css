@@ -129,22 +129,21 @@ color: var(--main-text-color);
 border-bottom: 1px solid #ececec;
 }
 
-              .header-align {
-                display: flex;
-                align-items: center;
-                margin: auto;
-                  
-                }
+.header-align {
+display: flex;
+align-items: center;
+margin: auto;
+}
 
-                  .navigation {
-                    display: flex;
-                    align-items: center;
-                  }
-                
-                  .nav {
-                    position: relative;
-                    display: flex; 
-                    }
+.navigation {
+display: flex;
+align-items: center;
+}
+
+.nav {
+position: relative;
+display: flex; 
+}
 
                   .nav .item:not(:last-child) {  
                   margin-right: 50px;
@@ -482,10 +481,10 @@ border-bottom: 1px solid #ececec;
                     transition-timing-function: var(--cubik-transform);
                   }
 
-                  .socials-link:hover,
-                  .socials-link:focus {
-                    background:var(--accent-color);
-                  }
+.socials-link:hover,
+.socials-link:focus {
+background:var(--accent-color);
+}
 
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
@@ -550,8 +549,7 @@ border-bottom: 1px solid #ececec;
 
 
 
-
-                  /* footer */
+/* footer */
 
 .footer {
   background-color: var(--background-color);
@@ -603,10 +601,9 @@ margin-bottom: 9px;
   text-transform: uppercase;
 }
 
-.social-links-section {
+.social-link-section {
   margin-left: 72px;
-  padding-top: 12px;
-}
+  }
 
 .social-list {
   display: flex;
@@ -640,12 +637,66 @@ margin-bottom: 9px;
   background-color: var(--accent-color);
 }
 
+.subscribe-form {
+  padding-left: 93px;
+  
+}
+
+.subscribe-text {
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom: 20px;
+}
+
+.subscribe-input {
+background: #2F303A; 
+padding: 16px 15px;
+width: 358px;
+height: 50px;
+font-size: 16px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+
+.subscribe-submit {
+position: absolute;
+width: 200px;
+height: 50px;
+cursor: pointer;
+border: 0;
+margin-left: 10px;
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: var(--White-color);
+background-color: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.subscribe-icon {
+position: absolute;
+padding-left: 10px;
+Width: 24px;
+Height: 24px;
+fill: var(--White-color);
+
+}
 
 
-  /* !!!!!!!!!! PORTFOLIO PAGE !!!!!!!!!! */
 
-  /*Фильтр, навигация сайта*/
-                  
+/* !!!!!!!!!! PORTFOLIO PAGE !!!!!!!!!! */
+
+/*Фильтр, навигация сайта*/
+
 
 .main-portfolio {
   padding-top: 94px;
@@ -669,7 +720,7 @@ margin-bottom: 9px;
   cursor: pointer;
   border: 0;
   padding: 6px 22px;
-                    
+  
   color: var(--main-text);
   background-color: var(--main-text-color));
   transition-property: color, background-color;
